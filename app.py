@@ -8,5 +8,5 @@ st.write('happy new year')
   
 st.write('good morning')
 
-img = Image.open(img)
+img = Image.open("Lenna.png")
 st.image(img)
