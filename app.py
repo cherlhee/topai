@@ -58,7 +58,8 @@ index = st.slider("Select image index", 0, len(test_dataset)-1, 0)
 img, label = test_dataset[index]
 
 # 이미지 표시
-st.image(img.squeeze().numpy(), caption=f"True Label : {label}", width=150)
+# st.image(img.squeeze().numpy(), caption=f"True Label : {label}", width=150)
+st.image(img.squeeze().numpy().clip(0,1), caption=f"True Label : {label}", width=150)
 
 
 # -----------------------------
