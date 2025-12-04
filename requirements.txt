@@ -1,6 +1,7 @@
-streamlit
+streamlit==1.52.0
 numpy
 matplotlib
 torch
-torchvision 
-PIL 
+torchvision
+torchaudio
+rich>=10.14.0
