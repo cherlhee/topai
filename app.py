@@ -17,7 +17,10 @@ option2 = st.sidebar.radio("Choose condition:",
 # //////////////////////////////////////////////////////////
 # to create tabs;
 tab1, tab2, tab3 = st.tabs(['TAB-1', 'TAB-2', 'TAB-3'])
-                            
+
+with tab1:
+  st.header('tab-one')
+  st.image('Lenna.png')
 # //////////////////////////////////////////////////////////
 
 st.title('DNN Dashboard')
