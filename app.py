@@ -17,4 +17,4 @@ st.image(img)
 
 # to upload dataset;
 df = pd.read_csv("ks_rawdata_ng_by_SLWB000 1.csv")
-st.line_chart(df)
+st.line_chart(df['voltage'])
