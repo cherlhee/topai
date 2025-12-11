@@ -21,7 +21,7 @@ st.write("Slider value:", slider_val)
 
 # //////////////////////////////////////////////////////////
 # to create tabs;
-tab1, tab2, tab3 = st.tabs(['cat', 'dog', 'owl])
+tab1, tab2, tab3 = st.tabs(['cat', 'dog', 'owl'])
                             
 # //////////////////////////////////////////////////////////
 
