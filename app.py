@@ -20,7 +20,14 @@ tab1, tab2, tab3 = st.tabs(['TAB-1', 'TAB-2', 'TAB-3'])
 
 with tab1:
   st.header('tab-one')
-  st.image('Lenna.png')
+
+with tab2:
+  st.header('tab-two')
+  st.image('co2weld.jpg')
+with tab3:
+  st.header('tab-three')
+  st.image('Lenna.jpg')
+    
 # //////////////////////////////////////////////////////////
 
 st.title('DNN Dashboard')
