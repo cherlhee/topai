@@ -29,7 +29,8 @@ st.write('good morning')
 
 
 # to load images;
-img = Image.open("Lenna.png")
+# img = Image.open("Lenna.png")
+img = Image.open("co2weld.jpg")
 st.image(img)
 
 
