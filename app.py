@@ -6,15 +6,20 @@ import pandas as pd
 
 # Sidebar contents
 st.sidebar.title("DNN")
-option = st.sidebar.selectbox("Choose a value:", ["A", "B", "C"])
+option1 = st.sidebar.selectbox("Choose a value:", 
+                               ["A", "B", "C"])
+
 slider_val = st.sidebar.slider("Select number", 0, 100, 50)
+
+option2 = st.sidebar.radio("Choose method:", 
+                           ["good", "bad", "normal")
 
 st.write("Selected option:", option)
 st.write("Slider value:", slider_val)
 
 
 
-
+# //////////////////////////////////////////////////////////
 
 st.title('hello,kitty')
 st.write('happy new year')
