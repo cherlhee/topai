@@ -22,7 +22,7 @@ st.write("Slider value:", slider_val)
 
 # //////////////////////////////////////////////////////////
 
-st.title('hello,kitty')
+st.title('DNN Dashboard')
 st.write('happy new year')
   
 st.write('good morning')
