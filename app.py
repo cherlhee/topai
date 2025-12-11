@@ -11,10 +11,11 @@ option1 = st.sidebar.selectbox("Choose a value:",
 
 slider_val = st.sidebar.slider("Select number", 0, 100, 50)
 
-option2 = st.sidebar.radio("Choose method:", 
+option2 = st.sidebar.radio("Choose condition:", 
                            ["good", "bad", "normal"])
 
-st.write("Selected option:", option)
+st.write("Selected option:", option1)
+st.write("Selected condition:", option2)
 st.write("Slider value:", slider_val)
 
 
