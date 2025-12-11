@@ -2,6 +2,11 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 
+# ---------------------------
+# MAKE FULL WIDTH
+# ---------------------------
+st.set_page_config(layout="wide")
+
 
 # //////////////////////////////////////////////////////////
 # Sidebar contents
