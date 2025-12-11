@@ -26,7 +26,7 @@ with tab2:
   st.image('co2weld.jpg')
 with tab3:
   st.header('tab-three')
-  st.image('Lenna.jpg')
+  st.image('Lenna.png')
     
 # //////////////////////////////////////////////////////////
 
