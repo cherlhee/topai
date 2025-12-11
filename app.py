@@ -18,5 +18,8 @@ st.image(img)
 # to upload dataset;
 df = pd.read_csv("ks_rawdata_ng_by_SLWB000 1.csv")
 
+st.subheader("voltage [V]")
 st.line_chart(df['voltage'])
+
+st.subheader("current [A]")
 st.line_chart(df['e_current'])
