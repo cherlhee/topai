@@ -5,7 +5,8 @@ import pandas as pd
 
 
 st.sidebar.[dnn]
-
+with st.sidebar:
+  st.[dnn]
 
 
 st.title('hello,kitty')
