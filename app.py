@@ -5,7 +5,7 @@ import pandas as pd
 
 
 # Sidebar contents
-st.sidebar.title("Settings")
+st.sidebar.title("DNN")
 option = st.sidebar.selectbox("Choose a value:", ["A", "B", "C"])
 slider_val = st.sidebar.slider("Select number", 0, 100, 50)
 
