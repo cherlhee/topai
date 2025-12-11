@@ -4,9 +4,16 @@ import pandas as pd
 
 
 
-st.sidebar.[dnn]
-with st.sidebar:
-  st.[dnn]
+# Sidebar contents
+st.sidebar.title("Settings")
+option = st.sidebar.selectbox("Choose a value:", ["A", "B", "C"])
+slider_val = st.sidebar.slider("Select number", 0, 100, 50)
+
+st.write("Selected option:", option)
+st.write("Slider value:", slider_val)
+
+
+
 
 
 st.title('hello,kitty')
