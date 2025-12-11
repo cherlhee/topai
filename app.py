@@ -3,7 +3,7 @@ from PIL import Image
 import pandas as pd
 
 
-
+# //////////////////////////////////////////////////////////
 # Sidebar contents
 st.sidebar.title("DNN")
 option1 = st.sidebar.selectbox("Choose a value:", 
@@ -19,7 +19,10 @@ st.write("Selected condition:", option2)
 st.write("Slider value:", slider_val)
 
 
-
+# //////////////////////////////////////////////////////////
+# to create tabs;
+tab1, tab2, tab3 = st.tabs(['cat', 'dog', 'owl])
+                            
 # //////////////////////////////////////////////////////////
 
 st.title('DNN Dashboard')
